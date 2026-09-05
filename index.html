@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whisk &amp; Wave — Handspun Milkshakes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-glass">🥤</span> Whisk<span>&amp;</span>Wave
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-link>Home</a>
+      <a href="#menu" class="nav-link" data-link>Menu</a>
+      <a href="#about" class="nav-link" data-link>About</a>
+      <a href="#contact" class="nav-link" data-link>Socials</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!--==============================================================================
+                                      HOME
+===============================================================================-->
+
+<section id="home" class="section hero">
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">Small-batch &middot; Hand-blended &middot; Zero shortcuts</p>
+      <h1>Thick shakes,<br> <span class="highlight">thicker</span> memories.</h1>
+      <p class="hero-sub">We blend real fruit, real cream, and real cocoa into shakes so heavy your straw might just stand on its own. No syrups pretending to be flavor.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See the Menu</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="hero-glass-wrap">
+        <img src="home image.jpg" alt="Signature banana caramel milkshake topped with whipped cream and fresh banana" class="hero-glass">
+      </div>
+    </div>
+  </div>
+
+  <svg class="divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,64 C240,120 480,0 720,32 C960,64 1200,120 1440,48 L1440,120 L0,120 Z"></path>
+  </svg>
+</section>
+
+<!--===========================================================================================================================================
+                                                                          MENU
+ ===========================================================================================================================================-->
+
+<section id="menu" class="section menu-section">
+  <div class="section-inner">
+    <p class="eyebrow center">The Lineup</p>
+    <h2 class="section-title center">Pick your pour</h2>
+    <p class="section-sub center">Eight flavors, blended fresh to order. Every glass is finished with real whipped cream — never the canned stuff.</p>
+
+    <div class="menu-grid">
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Blue Raspberry Milkshake.jpg" alt="Blue raspberry milkshake with whipped cream and blue syrup drizzle" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Blue Raspberry Blast</h3><span class="price">$6.50</span></div>
+          <p>Tart raspberry swirled with vanilla soft-serve and a candy-blue drizzle.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Blueberry Milkshake.jpg" alt="Blueberry milkshake with berry compote and fresh blueberries" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Wild Blueberry Swirl</h3><span class="price">$6.75</span></div>
+          <p>Slow-cooked wild blueberry compote folded through creamy vanilla base.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Chocolate Fudge Milkshake.jpg" alt="Chocolate fudge milkshake dripping with fudge and chocolate chunks" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Dark Fudge Overload</h3><span class="price">$7.25</span></div>
+          <p>Belgian dark chocolate, hot fudge lace, and a landslide of choc chunks.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Classic Vanilla Milkshake.jpg" alt="Classic vanilla bean milkshake with whipped cream" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Classic Bourbon Vanilla</h3><span class="price">$5.95</span></div>
+          <p>Madagascar vanilla bean, steeped slow. The one purists order.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Banana Milkshake.jpg" alt="Double chocolate milkshake in a mason jar with whipped cream and wafer stick" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Banana Milkshake</h3><span class="price">$7.50</span></div>
+          <p>Espresso-spiked chocolate malt, served old-school in a handled jar.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Mango milkshake.jpg" alt="Mango milkshake with fresh mango cubes and whipped cream" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Golden Mango Lassi Shake</h3><span class="price">$6.95</span></div>
+          <p>Sun-ripe mango pureed thick, kissed with a hint of cardamom.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Matcha Green Tea Frappuccino.jpg" alt="Matcha green tea frappuccino style milkshake with whipped cream and mint" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Ceremonial Matcha Frappe</h3><span class="price">$7.10</span></div>
+          <p>Stone-ground Japanese matcha, barely sweet, topped with mint.</p>
+        </div>
+      </article>
+
+      <article class="menu-card">
+        <div class="menu-card-img"><img src="Strawberry Milkshake.jpg" alt="Strawberry milkshake marbled with strawberry sauce and fresh strawberries" loading="lazy"></div>
+        <div class="menu-card-body">
+          <div class="menu-card-top"><h3>Marbled Strawberry Fields</h3><span class="price">$6.50</span></div>
+          <p>Roasted strawberry ribboned through cream for that marble finish.</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <svg class="divider divider-flip" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,64 C240,120 480,0 720,32 C960,64 1200,120 1440,48 L1440,120 L0,120 Z"></path>
+  </svg>
+</section>
+
+<!--===========================================================================================================================================
+                                                                      ABOUT
+============================================================================================================================================-->
+
+<section id="about" class="section about-section">
+  <div class="section-inner about-inner">
+    <div class="about-copy">
+      <p class="eyebrow">Since day one</p>
+      <h2 class="section-title">Blended by hand. On purpose.</h2>
+      <p>Whisk &amp; Wave started as a single blender on a market stall. We got tired of shakes that were really just flavored ice, so we built ours the slow way: real fruit macerated overnight, dairy from a farm twenty minutes out, and a blend time short enough that it never turns to soup.</p>
+      <p>Every glass is made when you order it — not scooped from a tub. That's the whole recipe.</p>
+
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">8</span>
+          <span class="stat-label">Signature flavors</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Made to order</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">0</span>
+          <span class="stat-label">Artificial syrups</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-media">
+      <img src="home image.jpg" alt="Marbled strawberry milkshake with fresh strawberries on a marble counter" loading="lazy">
+    </div>
+  </div>
+
+  <svg class="divider" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,64 C240,120 480,0 720,32 C960,64 1200,120 1440,48 L1440,120 L0,120 Z"></path>
+  </svg>
+</section>
+
+<!--===========================================================================================================================================
+                                                                       SOCIALS
+============================================================================================================================================-->
+<section id="contact" class="section contact-section">
+  <div class="section-inner">
+    <p class="eyebrow center light">Get in touch</p>
+    <h2 class="section-title center light">Our Socials</h2>
+    <p class="section-sub center light">Find us on our socials — we read everything.</p>
+
+    <!-- <div class="contact-grid">
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="What's on your mind?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send message</button> -->
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+
+      <div class="contact-info">
+        <a class="email-link" href="mailto:hello@whiskandwave.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 7l9 6 9-6"/></svg>
+          hello@whiskandwave.com
+        </a>
+
+        <p class="contact-note">We're usually pouring shakes and the inbox is open around the clock.</p>
+
+        <div class="social-links">
+          <a href="#instagram" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <a href="#facebook" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path d="M15 8h2V4h-2c-2.2 0-4 1.8-4 4v2H9v4h2v6h4v-6h2.5l.5-4H15V8c0-.6.4-1 1-1z"/>
+            </svg>
+          </a>
+          <a href="linkedIn" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="3"/>
+              <line x1="7.5" y1="10.5" x2="7.5" y2="16.5"/>
+              <circle cx="7.5" cy="7" r="0.6" fill="currentColor" stroke="none"/>
+              <path d="M11 16.5v-4c0-1.1.9-2 2-2s2 .9 2 2v4"/>
+              <line x1="11" y1="10.5" x2="11" y2="16.5"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Whisk &amp; Wave. All shakes, no shortcuts.</p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
